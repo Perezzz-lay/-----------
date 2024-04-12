@@ -8,3 +8,27 @@ div{
     height: 500px;
     background-color: red;
 }
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+label{
+    margin-bottom: 20px;
+}
+label:not(:first-child){
+    margin-top: 20px;
+}
+input{
+    width: 200px ;
+    height: 40px;
+}
+button{
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+}
